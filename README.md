@@ -27,3 +27,8 @@ Delete a local branch:
 Delete a remote branch (on GitHub):
 
 	> git push origin :[branchname]
+	
+Reset branch to remote (use carefully):
+
+	> git fetch origin
+	> git reset --hard origin/[branchname]
