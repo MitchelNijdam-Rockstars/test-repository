@@ -32,3 +32,8 @@ Reset branch to remote (use carefully):
 
 	> git fetch origin
 	> git reset --hard origin/[branchname]
+
+To save current branch to new one:
+
+    > git commit -a -m "Saving my work, just in case"
+    > git branch my-saved-work
